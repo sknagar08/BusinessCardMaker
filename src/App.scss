@@ -1,5 +1,10 @@
 .app {
   main {
     display: flex;
+    h2 {
+      font-size: 1.3em;
+      font-weight: 300;
+      margin-bottom: 15px;
+    }
   }
 }
