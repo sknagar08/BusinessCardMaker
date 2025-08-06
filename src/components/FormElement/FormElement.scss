@@ -1,0 +1,18 @@
+.form-element {
+  margin-bottom: 15px;
+  label {
+    strong {
+      font-weight: normal;
+      display: block;
+      margin-bottom: 5px;
+    }
+    input {
+      border: 1px solid #ccf;
+      padding: 6px 6px;
+      border-radius: 6px;
+      outline: none;
+      box-shadow: 0 0 5px #ccf;
+      width: 75%;
+    }
+  }
+}
