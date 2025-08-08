@@ -3,7 +3,13 @@
   width: 450px;
   height: 250px;
   border: 1px solid #ccc;
-  background-color: #fff;
+  border-radius: 20px;
+  background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #c74258 0%,
+    #6c63cb 100%
+  );
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
