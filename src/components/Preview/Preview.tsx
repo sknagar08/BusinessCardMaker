@@ -9,21 +9,15 @@ interface PreviewProps {
 }
 
 function Preview({ name, designation, phone, email }: PreviewProps) {
-
   return (
     <section className="preview">
       <h2>Preview Pane</h2>
-      <div>
-        <BusinessCard
-          name={name}
-          designation={designation}
-          phone={phone}
-          email={email}
-        />
-      </div>
-      <button>Save As PDF</button>
-      <button>Save As PNG</button>
-      <button>Save As JPEG</button>
+      <BusinessCard
+        name={name}
+        designation={designation}
+        phone={phone}
+        email={email}
+      />
     </section>
   );
 }
